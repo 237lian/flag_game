@@ -9,9 +9,10 @@ state = {
 
 def main():
     pygame.init()
+    screen.draw_game()
     while state["is_window_open"]:
         handle_user_events()
-        screen.draw_game()
+
 
 
 def handle_user_events():
