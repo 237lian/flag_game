@@ -14,7 +14,6 @@ def main():
         handle_user_events()
 
 
-
 def handle_user_events():
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
