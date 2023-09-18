@@ -20,5 +20,5 @@ def draw_game():
 
 def flag_place():
     # flag = pygame.transform.scale(consts.FLAG, (40, 60))
-    screen.blit(consts.FLAG, (21*20, 46*20))
+    screen.blit(consts.FLAG, (420, 920))
     pygame.display.flip()
