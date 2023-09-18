@@ -13,4 +13,12 @@ def draw_game():
         x = random.randint(0, 950)
         y = random.randint(0, 450)
         screen.blit(grass, (x, y))
+    # flag = pygame.transform.scale(consts.FLAG, (40, 60))
+    # screen.blit(flag, (21 * 20, 46 * 20))
+    pygame.display.flip()
+
+
+def flag_place():
+    # flag = pygame.transform.scale(consts.FLAG, (40, 60))
+    screen.blit(consts.FLAG, (21*20, 46*20))
     pygame.display.flip()
