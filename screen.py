@@ -7,8 +7,4 @@ pygame.display.set_caption("THE FLAG")
 
 def draw_game():
     screen.fill(consts.GREEN)
-    pygame.display.update()
-
-
-while True:
-    pass
+    pygame.display.flip()
