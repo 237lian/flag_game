@@ -8,7 +8,6 @@ MATRIX_COLS = 50
 
 GREEN = (0, 128, 0)
 BLACK = (0, 0, 0)
-# TRANSPARENT = (0, 0, 0, 0)
 
 GRASS = pygame.image.load('grass.png')
 FLAG_PHOTO = pygame.image.load('flag.png')
@@ -25,10 +24,6 @@ FLAG = "flag"
 LEGS = "legs"
 BODY = "body"
 MINE = "mine"
-
-WIN_STATE = 1
-LOSE_STATE = 2
-RUNNING_STATE = 3
 
 FONT_NAME = "Calibri"
 LOSE_MESSAGE = "You Lost!"

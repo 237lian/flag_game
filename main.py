@@ -1,14 +1,11 @@
 import pygame
 import screen
 import game_field
-import time
-import sys
 import consts
 import soldier
 
 state = {
-    "is_window_open": True,
-    "state": consts.RUNNING_STATE
+    "is_window_open": True
 }
 
 
