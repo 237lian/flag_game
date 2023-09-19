@@ -8,6 +8,7 @@ MATRIX_COLS = 50
 
 GREEN = (0, 128, 0)
 BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
 
 GRASS = pygame.image.load('grass.png')
 FLAG_PHOTO = pygame.image.load('flag.png')
@@ -35,3 +36,8 @@ WIN_MESSAGE = "You Won!"
 WIN_FONT_SIZE = LOSE_FONT_SIZE
 WIN_COLOR = (89, 89, 89)
 WIN_LOCATION = (0.2 * WINDOW_WIDTH, WINDOW_HEIGHT / 2 - (WIN_FONT_SIZE / 2))
+
+STARTING_MESSAGE = "Welcome to The Flag game. Have Fun!"
+MESSAGE_COLOR = WHITE
+MESSAGE_SIZE = 30
+MESSAGE_LOCATION = (40, 0)

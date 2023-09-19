@@ -29,7 +29,6 @@ def draw_game():
     pygame.display.flip()
 
 
-
 def draw_lose_message():
     draw_message(consts.LOSE_MESSAGE, consts.LOSE_FONT_SIZE,
                  consts.LOSE_COLOR, consts.LOSE_LOCATION)
@@ -38,6 +37,11 @@ def draw_lose_message():
 def draw_win_message():
     draw_message(consts.WIN_MESSAGE, consts.WIN_FONT_SIZE,
                  consts.WIN_COLOR, consts.WIN_LOCATION)
+
+
+def draw_starting_message():
+    draw_message(consts.STARTING_MESSAGE, consts.MESSAGE_SIZE,
+                 consts.MESSAGE_COLOR, consts.MESSAGE_LOCATION)
 
 
 def draw_message(message, font_size, color, location):

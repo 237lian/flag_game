@@ -17,6 +17,7 @@ def main():
         handle_user_events()
         pygame.display.flip()
         soldier.soldier_place()
+        screen.draw_starting_message()
 
         if touched_mine():
             screen.draw_lose_message()
